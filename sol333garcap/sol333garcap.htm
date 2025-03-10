@@ -1,0 +1,123 @@
+ 
+<HTML><HEAD><TITLE>trianguloscabri333</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.100" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<H1>Problema 333 de <I>triánguloscabri</I> </H1>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FFFFCC" height="18"> 
+      <p>Sea <i>AD</i> una ceviana del tr&iacute;angulo <i>ABC</i> tal que <i>AD</i><sup>2</sup>=<i>BD</i>&middot;<i>DC</i> 
+        (usamos medidas con signo).</p>
+      <p> Caracterizar si existen o no tri&aacute;ngulos distintos de los tri&aacute;ngulos 
+        rect&aacute;ngulos que verifiquen la propiedad anterior.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="right"><font size="-1">Propuesto por Juan Bosco Romero M&aacute;rquez</font></div>
+    </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de <a href="http://garciacapitan.auna.com"><i>Francisco Javier 
+  Garc&iacute;a Capit&aacute;n</i></a> </p>
+<p>Usaremos las coordenadas baric&eacute;ntricas y el programa <i>Mathematica</i> 
+  para investigar el problema propuesto.</p>
+<blockquote> 
+  <p><img src="math1.jpg" width="128" height="18"></p>
+</blockquote>
+<p>Definimos un punto <i>D</i> variable sobre la recta <i>BC</i> y usamos la funci&oacute;n 
+  <b>CuadradoDistancia</b> para imponer a <i>D</i> que cumpla la propiedad requerida 
+  y obtener una expresi&oacute;n que deber&aacute; anularse:</p>
+<blockquote> 
+  <p><img src="math2.jpg" width="647" height="84"></p>
+</blockquote>
+<p>El primer factor corresponde al punto <i>D</i> = {0,-<i>b</i><sup>2</sup>,<i>c</i><sup>2</sup>}. 
+  Teniendo en cuenta que {<i>a</i><sup>2</sup>,<i>b</i><sup>2</sup>,<i>c</i><sup>2</sup>} 
+  son las coordenadas del punto simediano, <i>AD</i> ser&aacute; la recta conjugada 
+  arm&oacute;nica respecto de <i>AB</i> y <i>AC</i> de la simediana corrrespondiente 
+  a <i>A</i>. Sin embargo, el punto <i>D</i> en este caso es exterior al segmento 
+  <i>BC</i>, por lo que tendremos <i>BD</i>&middot;<i>DC</i> &lt; 0 y no ser&aacute; 
+  una soluci&oacute;n del problema. </p>
+<p>El segundo factor del numerador, por ser de segundo grado, corresponder&aacute; 
+  a dos puntos, uno o ninguno y podemos pensar que dichos puntos son la intersecci&oacute;n 
+  con la recta <i>BC</i> y una circunferencia determinada. Comenzamos entonces 
+  por completar la expresi&oacute;n del segundo par&eacute;ntesis con t&eacute;rminos 
+  en <i>x</i><sup>2</sup>, <i>xy</i> y <i>xz</i>.</p>
+<blockquote> 
+  <p><img src="math3.jpg" width="478" height="18"></p>
+</blockquote>
+<p>Queremos buscar una circunferencia sencilla de este tipo. Si obligamos a que 
+  la circunferencia pase por <i>A</i>, deber&aacute; ser <i>p</i>=0. </p>
+<blockquote> 
+  <p><img src="math4.jpg" width="424" height="18"></p>
+</blockquote>
+<p>Hallemos los puntos de corte con los lados <i>AB</i> y <i>AC</i>. </p>
+<blockquote> 
+  <p><img src="math5.jpg" width="173" height="128"></p>
+</blockquote>
+<p>Esto quiere decir que los puntos de corte con <i>AB</i> y <i>AC</i> son {-<i>c</i><sup>2</sup>, 
+  <i>q</i>,0} y {-<i>b</i><sup>2</sup>, 0,<i>r</i>} respectivamente. Si hacemos 
+  <i>q</i> = <font face="Symbol">-</font><i>c</i><sup>2</sup> y <i> r </i>= <font face="Symbol">-</font><i>b</i><sup>2</sup> 
+  los puntos de corte ser&aacute;n {1,1,0} y {1,0,1}, es decir, los puntos medios 
+  de los lados. La c&oacute;nica que queda con estos valores es</p>
+<blockquote> 
+  <p><img src="math6.jpg" width="298" height="46"></p>
+</blockquote>
+<p>Para comprobar que es una circunferencia hacemos:</p>
+<blockquote> 
+  <p><img src="math7.jpg" width="487" height="65"></p>
+</blockquote>
+<p>Por tanto, para hallar los puntos <i>D</i> sobre <i>BC</i> tales que <i>AD</i><sup>2</sup>=<i>BD</i>&middot;<i>DC</i> 
+  basta hallar la intersecci&oacute;n con <i>BC</i> de la circunferencia que pasa 
+  por el vertice A y los puntos medios de <i>W</i> y <i>V</i> de <i>AB</i> y <i>AC</i>, 
+  respectivamente. </p>
+<p><img src="333.jpg" width="359" height="260" align="right">En la figura adjunta 
+  hemos dibujado un tri&aacute;ngulo <i>ABC</i>. Supongamos que el lado <i>BC</i> 
+  es fijo y que el punto <i>A </i>var&iacute;a por el plano. Trazamos la elipse 
+  que tiene por focos a <i>B</i> y <i>C</i>, con eje menor midiendo lo mismo que 
+  <i>BC</i>, es decir con excentricidad igual a <img src="ecuacion2.gif" width="41" height="25" align="texttop"></p>
+<p>Ser&aacute; dependiendo de que <i>A</i> est&eacute; en el interior de esta 
+  elipse, sobre esta elipse o fuera de esta elipse cuando existan dos puntos soluci&oacute;n, 
+  los dos puntos se confundan en uno, o no existan respectivamente. </p>
+<p>En la figura se ve el caso general de que hay dos soluciones <i>K</i> y <i>L</i>. 
+</p>
+<p>En el caso particular de que <i>A</i> est&eacute; sobre la circunferencia de 
+  di&aacute;metro <i>BC</i> (es decir, cuando <i>ABC</i> es rect&aacute;ngulo 
+  en <i>A</i>) , resultar&aacute; que <i>K</i> coincidir&aacute; con el punto 
+  medio de <i>BC</i> y <i>L</i> ser&aacute; el pie de la altura trazada por <i>A</i>. 
+</p>
+<table width="90%" border="0" align="center">
+  <tr> 
+    <td bgcolor="#FFFF66"><font size="-1"><b>Agradecimiento</b>: La interpretaci&oacute;n 
+      de los puntos <i>K</i> y <i>L</i> como intersecci&oacute;n con <i>BC</i> 
+      de la circunferencia por <i>A</i>, <i>V</i> y <i>W</i> se debe a Bernard 
+      Gibert (ver mensajes de Hyacinthos n&uacute;meros <a href="http://groups.yahoo.com/group/Hyacinthos/message/14125">14125</a> 
+      y <a href="http://groups.yahoo.com/group/Hyacinthos/message/14127">14127</a>).</font></td>
+  </tr>
+</table>
+<p>&nbsp;</p><table width="90%" border="0" align="center">
+  <tr> 
+    <td bgcolor="#FFFFFF"> 
+      <p><b><img src="333e.jpg" width="305" height="174" align="right">Nota del 
+        editor</b>: Si llamamos <i>R</i> punto de intersecci&oacute;n de la paralela 
+        media <i>WV</i> y la recta <i>AK</i>, tenemos:</p>
+      <blockquote> 
+        <p><img src="ecuacion1.gif" width="158" height="89"></p>
+      </blockquote>
+      <p>Lo mismo podr&iacute;a hacerse con el punto <i>L</i>. </p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<div align="center"></div>
+<p align="center"><applet codebase="../" archive="CabriJava.jar" 
+code="CabriJava.class"
+width=600 height=320 align="middle">
+    <param name=file value="333.fig">
+    <param name=lang value="es">
+    <param name=border value=0>
+    <param name=bgcolor value=#FFFFCC>
+    <param name=controller value=true>
+  </applet></p>
+</BODY></HTML>

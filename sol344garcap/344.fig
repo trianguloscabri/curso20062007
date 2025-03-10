@@ -1,0 +1,88 @@
+Figure Cabri II Plus vers. MS-Windows 1.2.5
+
+Window center x: 3.47cm y: -2.79cm Window size x: 26.53cm y: 16.74cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+color:B, thicker, invisible, 
+
+2: Axes, Const: 1, cart, Val: 1 0 0 1
+invisible, 
+
+3: Pt, Val: 4.13157894736842 -6.76315789473684
+color:Bl, thicker, 
+"B"
+TP:  3.78947368421053,  -6.78947368421053, TS:  0.789473684210526,  0.5
+p: 0, Arial, S: 12 C: 15 Fa: 1
+
+4: Line, Const: 3, Val: -3.44736842105263 6.39473684210526
+color:B, invisible, 
+
+5: Pt/, Const: 4, Val: -0.0767687953386199 1.04316654402507
+color:Bl, thicker, 
+"C"
+TP:  0,  1.42105263157895, TS:  0.789473684210526,  0.5
+p: 0, Arial, S: 12 C: 15 Fa: 1
+
+6: Mid, Const: 3,  5, 
+color:B, thicker, invisible, 
+
+7: Cir, Const: 6,  5, 
+invisible, 
+
+8: Pt/, Const: 7, Val: -0.0606324194903641 -6.77181397495185
+color:Bl, thicker, 
+"A"
+TP:  -0.289473684210526,  -6.86842105263158, TS:  0.789473684210526,  0.5
+p: 0, Arial, S: 12 C: 15 Fa: 1
+
+9: Tr, Const: 8,  3,  5, 
+color:B, fill color:kki, 
+
+10: Text, Val: -280 -179 0, nA, nP, 
+"Caracterizar y construir el triángulo ABC, que es rectángulo en A, de hipotenusa a=BC, y de catetos b=AC,y c=AB, de tal forma que, BD=DE=EC, donde D es un punto tomado sobre AC, E es un punto tomado sobre BC, tal que el ángulo ABD=ACB, y el ángulo BDE es rectángulo en D. 
+Calcular también, los radios de los círculos inscrito y circunscrito a cada uno de los triángulos ABD, BDE, DEC. 
+"
+TP:  -7.36842105263158,  4.71052631578947, TS:  19.1578947368421,  2.81578947368421
+p: 0, Times New Roman, S: 12, C: 40, Fa: 0, p: 386, Arial, S: 11, C: 40, Fa: 0
+
+11: AngVal, Const: 8,  5,  3, Val: 210 119 0.492367, A, P, 
+NbD:129, FD, deg, 
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+12: Text, Const: 8,  5,  3, inc.elmts: 11, Val: 11 18 0, nA, nP, 
+invisible, 
+""#"
+TP:  0.289473684210526,  -0.473684210526316, TS:  1.07894736842105,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+13: Rot, Const: 8,  3,  11, 
+color:B, thicker, invisible, 
+
+14: Refl, Const: 13,  9, side:0, 
+color:B, thicker, invisible, 
+
+15: Line, Const: 3,  14, 
+color:B, invisible, 
+
+17: Int, Const: 9,  15, int ind:0x2, 
+color:B, thicker, 
+"D"
+TP:  -0.5,  -4.44736842105263, TS:  0.789473684210526,  0.5
+p: 0, Arial, S: 12 C: 40 Fa: 1
+
+18: Perp, Const: 17,  15, 
+color:B, invisible, 
+
+20: Int, Const: 9,  18, int ind:0x1, 
+color:B, thicker, 
+"E"
+TP:  1.5,  -1.28947368421053, TS:  0.789473684210526,  0.5
+p: 0, Arial, S: 12 C: 40 Fa: 1
+
+21: Seg, Const: 3,  17, 
+color:B, 
+
+22: Seg, Const: 17,  20, 
+color:B, 
+

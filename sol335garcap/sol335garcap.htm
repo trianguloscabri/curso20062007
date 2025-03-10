@@ -1,0 +1,231 @@
+<HTML>
+<HEAD>
+<TITLE>trianguloscabri335</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.100" name=GENERATOR>
+</HEAD>
+<BODY bgColor=#ffffff>
+<H1>Problema 335 de <I>triánguloscabri</I> </H1>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FFFFCC" height="18"> 
+      <p>Los puntos isodinamicos son inversos con respecto a la circunferencia 
+        circunscrita y dividen arm&oacute;nicamente al diametro de Brocard.</p>
+      <p>El di&aacute;metro de Brocard es el segmento formado entre el circuncentro 
+        y el punto simediano <i>K</i>, que es el isogonal del baricentro, es punto 
+        de corte de las sim&eacute;tricas de las medianas respecto a las bisectrices.</p>
+      </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="right"><font size="-1">Propuesto por Jos&eacute; Carlos Ch&aacute;vez 
+        Sandoval </font></div>
+    </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de <a href="http://garciacapitan.auna.com"><i>Francisco Javier 
+  Garc&iacute;a Capit&aacute;n</i></a>. </p>
+<table width="90%" border="0" align="center">
+  <tr> 
+    <td height="17"> 
+      <div align="center"><font face="Geneva, Arial, Helvetica, san-serif" size="-1">Mi 
+        cometido aqu&iacute; es a&ntilde;adir detalles a la soluci&oacute;n que 
+        da a este problema Amir Saeidy, de Ir&aacute;n. La soluci&oacute;n aparece 
+        en el foro <br>
+        <a href="http://www.artofproblemsolving.com/Forum/viewtopic.php?p=592840">Art 
+        of Problem Solving</a>, incluyendo algunas aclaraciones que el autor me ha 
+        hecho llegar mediante el correo electr&oacute;nico.)</font></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="2" bgcolor="#000000"></td>
+  </tr>
+  <tr> 
+    <td height="2626"> 
+      <h3>Primera parte: <span class=postbody><i>Los puntos isodin&aacute;micos 
+        son inversos respecto de la circunferencia circunscrita</i></span></h3>
+      <table width="90%" border="0" align="center">
+        <tr> 
+          <td bgcolor="#FFFFCC"> 
+            <p><span class=postbody><b>Lema 1</b>. En un tri&aacute;ngulo cada 
+              circunferencia de Apolonio es ortogonal a la circunferencia circunscrita. 
+              </span></p>
+            <p><span class=postbody><i>Demostraci&oacute;n</i>. Consideremos la 
+              circunferencia de Apolonio correspondiente al v&eacute;rtice <i>A</i>. 
+              Esta circunferencia tiene di&aacute;metro <i>LL'</i>, siendo <i>L</i> 
+              y <i>L' </i> las intersecciones con <i>BC</i> de las bisectrices 
+              del &aacute;ngulo <i>A</i>. </span></p>
+            <p><span class=postbody>Sean <i>O</i> el centro de la circunferencia 
+              circunscrita y <i>U</i>  el centro de la circunferencia de Apolonio 
+              correspondiente a <i>A</i>.</span></p>
+            <p align="center"><span class=postbody><img src="apolonio.gif" width="481" height="308"></span></p>
+            <blockquote> 
+              <p><span class=postbody><font face="Symbol">&ETH;</font><i>OAC</i> 
+                = (180&ordm;-<font face="Symbol">&ETH;</font><i>AOC</i>)/2 = 90&ordm;-(180&ordm;-B) 
+                = B - 90&ordm;,<br>
+                <br>
+                <font face="Symbol">&ETH;</font><i>AUC</i> = 2 <font face="Symbol">&ETH;</font><i>AL'B</i> 
+                = 2 (180&ordm;- <font face="Symbol">&ETH;</font><i>BAL'</i> - 
+                <font face="Symbol">&ETH;</font><i>ABL'</i>) = 2 (180&ordm; - 
+                (90&ordm; - <i>A</i>/2) - (180&ordm; - <i>B</i>)) = <i>A</i> + 
+                2<i>B</i> - 180&ordm;,<br>
+                <br>
+                <font face="Symbol">&ETH;</font><i>U<font face="Symbol"></font><i>A</i>C</i> 
+                = 180&ordm;- <font face="Symbol">&ETH;</font><i>AUC</i> - <i>C</i> 
+                = 180&ordm;- (<i>A</i> + 2<i>B</i> - 180&ordm;) - <i>C = </i>360&ordm; 
+                - (<i>A</i> + 2<i>B+C</i>),</span></p>
+              <p><span class=postbody><font face="Symbol"><b>&ETH;</b></font><b><i>OAU</i></b><i> 
+                </i>= <font face="Symbol">&ETH;</font><i>OAC</i> <i>+ </i><font face="Symbol">&ETH;</font><i>UAC</i> 
+                = 360&ordm; - (<i>A</i> + 2<i>B+C</i>) + (<i>B</i>-90&ordm;) = 
+                270&ordm;-(<i>A</i>+<i>B</i>+<i>C</i>) = <b>90&ordm;</b>.<br>
+                </span></p>
+            </blockquote>
+          </td>
+        </tr>
+      </table>
+      <div align="center"></div>
+      <h3>&nbsp;</h3>
+      <p>Los puntos isodin&aacute;micos son los puntos de intersecci&oacute;n 
+        de las tres circunferencias de Apolonio del tri&aacute;ngulo. Como cada 
+        una de estas circunferencias es ortogonal a la circunferencia circunscrita, 
+        resulta que cada circunferencia de Apolonio es fija mediante la inversi&oacute;n 
+        respecto de la circunferencia circunscrita. Uno de los puntos isodin&aacute;micos 
+        que est&aacute; en las tres circunferencias, debe aplicarse en el otro. 
+      </p>
+      <p align="center"><img src="isodinamicos.jpg" width="460" height="400"></p>
+      <h3>Segunda parte: Los puntos isodinamicos dividen arm&oacute;nicamente 
+        al di&aacute;metro de Brocard.</h3>
+      <table width="90%" border="0" align="center">
+        <tr> 
+          <td bgcolor="#FFFFCC"> 
+            <p><b><img src="amir3.gif" width="429" height="254" align="right">Lema 
+              2</b>. Sean <i>X</i>,<i>Y</i>,<i>Z</i> los pies de las alturas desde 
+              <i>A</i>, <i>B</i>, <i>C</i> sobre <i>BC</i>, <i>AC</i>, <i>CA</i> 
+              en el tri&aacute;ngulo <i>ABC</i>. Si <i>YZ</i> corta a <i>BC</i> 
+              en <i>S</i>, entonces (<i>BCXS</i>) = <font face="Symbol">-</font>1. 
+            </p>
+            <p><i>Demostraci&oacute;n</i>. Como las alturas <i>AX</i>, <i>BY</i>, 
+              <i>CZ</i> se cortan en el ortocentro <i>H</i>, el teorema de Ceva 
+              nos dice que </p>
+            <blockquote> 
+              <p><img src="ecuacion1.gif" width="118" height="41"></p>
+            </blockquote>
+            <p>Por otro lado, como la transversal <i>YZ</i> corta a <i>BC</i>, 
+              <i>CA</i>, <i>AB</i> en <i>S</i>, <i>Y</i>, <i>Z</i>, respectivamente, 
+              el teorema de Menelao nos dice que </p>
+            <blockquote> 
+              <p><img src="ecuacion2.gif" width="126" height="41"></p>
+            </blockquote>
+            <p>Comparando las dos igualdades resulta</p>
+            <blockquote> 
+              <p><img src="ecuacion3.gif" width="192" height="41"> </p>
+            </blockquote>
+            <table width="90%" border="0" align="center">
+              <tr> 
+                <td bgcolor="#FFFF99"> 
+                  <p><b>Corolario</b>. Sean <i>B</i>, <i>C</i>, <i>S</i>, <i>X</i> 
+                    cuatro puntos de una recta cumpliendo (<i>BCXS</i>) = <font face="Symbol">-</font>1 
+                    y sea <i>A</i> un punto exterior a la recta. Sean <i>Y</i>, 
+                    <i>Z</i> sobre <i>CA</i>, <i>AB</i>, respectivamente tales 
+                    que <i>BY</i> y <i>CZ</i> son perpendiculares a <i>CA</i> 
+                    y <i>AB</i>, tambi&eacute;n respectivamente. Entonces <i>AX</i> 
+                    es perpendicular a <i>BC</i>. </p>
+                  <i>Demostraci&oacute;n</i>. Como <i>BY</i> y <i>CZ</i> dos alturas 
+                  del tri&aacute;ngulo <i>ABC</i>, al trazar la tercera <i>AX'</i> 
+                  tendremos, aplicando el Lema 2 que (<i>BCX'S</i>) = <font face="Symbol">-</font>1. 
+                  Como, por hip&oacute;tesis, es tambi&eacute;n (<i>BCXS</i>) 
+                  = <font face="Symbol">-</font>1, tenemos <i>X</i>=<i>X'</i> 
+                  y <i>AX</i> es perpendicular a <i>BC</i>. </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table width="90%" border="0" align="center">
+        <tr> 
+          <td bgcolor="#FFFFCC" height="278"> 
+            <p><span class=postbody><b><img src="amir2.gif" width="388" height="309" align="right">Lema 
+              3 </b>. Sean <i>EF</i> un di&aacute;metro de una circunferencia 
+              y <i>S</i> un punto exterior a la circunferencia que est&aacute; 
+              en la recta <i>EF</i>. Supongamos que las tangentes desde <i>S</i> 
+              a la circunferencia tocan a la circunferencia en <i>A</i>, <i>B</i> 
+              y sea <i>S'</i> = <i>AB</i> <font face="Symbol">&Ccedil;</font> 
+              <i>EF</i>. Sea <i>r</i> una recta cualquiera que pasa por <i>S</i>, 
+              corta en <i>C</i>, <i>D</i> a la circunferencia y en <i>T</i> al 
+              semgento <i>AB</i>. Entonces (<i>CDTS</i>) = <font face="Symbol">-</font>1. 
+              </span></p>
+            <p><span class=postbody><i>Demostraci&oacute;n</i>. Por ser <i>AB</i> 
+              la polar del punto <i>S</i> respecto de la circunferencia con di&aacute;metro 
+              <i>EF</i> se cumple que (<i>EFS'S</i>) =<font face="Symbol"> -</font>1. 
+              </span></p>
+            <p><span class=postbody>Supongamos que <i>EC</i> y <i>FD</i> se cortan 
+              en <i>X</i>. Como <i>EC</i><font face="Symbol">^</font><i>CF</i> 
+              y <i>FD</i><font face="Symbol">^</font><i>ED</i>, aplicando el aplicando 
+              el corolario del <b>Lema 2</b> resultar&aacute; que <i>EC</i>, <i>FD</i> 
+              y <i>AB</i> son concurrentes en <i>X</i>. </span></p>
+            <p>Ahora, proyectando la recta <i>EF</i> sobre la recta <i>CD</i> 
+              desde el punto <i>X</i> obtenemos que (<i>CDTS</i>) = (<i>EFS'S</i>) 
+              = <font face="Symbol">-</font>1.</p>
+          </td>
+        </tr>
+      </table>
+      <p>Pasemos ya a demostrar que los puntos isodin&aacute;micos dividen arm&oacute;nicamente 
+        al di&aacute;metro de Brocard. Tenemos:</p>
+      <ul>
+        <li><span class=postbody><img src="amir.jpg" width="372" height="310" align="right"><font face="Symbol">G</font> 
+          es la circunferencia circunscrita a <i>ABC</i>, con centro <i>O</i>. 
+          </span></li>
+        <li><i>M</i> es el punto medio del lado <i>BC</i>.</li>
+        <li><span class=postbody>La bisectriz exterior del &aacute;ngulo <i>A</i> 
+          corta en <i>D</i> a la recta <i>BC</i> y en <i>P</i> a <font face="Symbol">G</font>. 
+          </span></li>
+        <li><span class=postbody>Las bisectriz interior del &aacute;ngulo <i>A</i> 
+          corta en <i>E</i> a la recta <i>BC</i> y en <i>Q</i> a <font face="Symbol">G</font>. 
+          </span></li>
+        <li><i>U</i> es el punto medio de <i>DE</i>.</li>
+        <li>La circunferencia <font face="Symbol">D</font> con centro <i>U</i> 
+          y di&aacute;metro <i>DE</i> se llama circunferencia de Apolonio de <i>ABC</i> 
+          correspondiente a <i>A</i>. </li>
+        <li>Las tangentes a <span class=postbody><font face="Symbol">G</font> 
+          en <i>B</i> y <i>C</i> se cortan en <i>S</i>. </span></li>
+        <li><i>T</i> es el otro punto de intersecci&oacute;n de <span class=postbody><font face="Symbol">G</font> 
+          y la circunferencia de Apolonio correspondiente a A.</span></li>
+      </ul>
+      <p>A partir de aqu&iacute;, </p>
+      <ol>
+        <li><i>PQ</i> es un di&aacute;metro y la recta <i>PQ</i> pasa por <i>S</i>.</li>
+        <li>La cuaterna (<i>PQMS</i>) es arm&oacute;nica y el &aacute;ngulo <font face="Symbol">&ETH;</font><i>PAQ</i> 
+          es recto. En consecuencia, <i>AP</i> y AQ son las bisectrices del tri&aacute;ngulo 
+          <i>MAS</i>, y AS es la simediana correspondiente a <i>A</i> del tri&aacute;ngulo 
+          <i>ABC</i>. </li>
+        <li>La polar de <i>S</i> respecto de la circunferencia <font face="Symbol">G</font> 
+          , que es <i>BC</i>, pasa por <i>U</i>. En consecuencia, la polar de 
+          <i>U</i> respecto de <font face="Symbol">G</font> a su vez pasar&aacute; 
+          por S. Pero la polar de U respecto de <font face="Symbol">G</font> es 
+          la recta <i>AT</i>, ya que las circunferencias <font face="Symbol">D</font> 
+          y <font face="Symbol">G</font> son ortogonales. Por tanto, <i>T</i>, 
+          <i>A</i> y <i>S</i> est&aacute;n alineados. </li>
+        <li>La simediana del tri&aacute;ngulo <i>ABC </i>correspondiente a <i>A</i> 
+          es el eje radical de <font face="Symbol">D</font> y <font face="Symbol">G</font>.</li>
+        <li>Considerando la circunferencia <font face="Symbol">G</font> y dos 
+          de las circunferencias de Apolonio, el centro radical de las tres circunferencias 
+          ser&aacute; el punto de intersecci&oacute;n de las dos simedianas correspondientes, 
+          es decir, el punto simediano <i>K</i>. El eje radical de dos de las 
+          circunferencias de Apolonio es la recta que une los puntos isogonales 
+          y el punto <i>K</i> est&aacute; en dicha recta. Los puntos isogonales, 
+          por tanto, est&aacute;n en la recta <i>OK</i>. </li>
+        <li><span class=postbody>Finalmente, teniendo en cuenta que <i>AT</i> 
+          es la polar de <i>O</i> respecto de <font face="Symbol">D</font>, llamando 
+          <i>X</i> e <i>Y</i> a los puntos isodin&aacute;micos, y usando el <b>Lema 
+          3</b> tendremos que (<i>XYKO</i>) = <font face="Symbol">-</font>1.</span></li>
+      </ol>
+    </td>
+  </tr>
+</table>
+<p><br>
+</p>
+<h3>&nbsp;</h3>
+</BODY>
+</HTML>
+

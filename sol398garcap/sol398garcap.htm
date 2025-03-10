@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+<TITLE>trianguloscabri398</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</HEAD>
+<BODY bgColor=#ffffff>
+<H1>Problema 398 de <I>triánguloscabri</I> </H1>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FFFFCC" height="287"> 
+      <p>Sean <i>ABC</i> un tri&aacute;ngulo no rect&aacute;ngulo en <i>A</i> 
+        y <i>V </i>un punto situado sobre la recta <i>BC</i>, distinto de los 
+        v&eacute;rtices. La paralelas a <i>AC</i> y <i>AB</i> por por <i>V</i> 
+        cortan a <i>AB</i> y <i>AC</i> en <i>D</i> y <i>E</i>, respectivamente. 
+        La perpendicular a <i>AB</i> por <i>V</i> corta en en <i>G</i> a <i>AC</i>. 
+        La perpendicular a <i>AC</i> por <i>V</i> corta en <i>F</i> a <i>AB</i>. 
+        Adem&aacute;s consideramos los puntos de intersecci&oacute;n <i>J</i> 
+        = <i>GD</i> <font face="Symbol">&Ccedil;</font> <i>VF</i> y <i>K</i> =<i>EF</i> 
+        <font face="Symbol">&Ccedil;</font> <i>VG</i>.</p>
+      <p><i>a</i>) Demostrar que cada uno de los siguientes enunciados es cierto 
+        si y solo si <i>AV</i> es una de las bisectrices del &aacute;ngulo <i>A</i>. 
+      </p>
+      <ol>
+        <li><i>DE</i> es paralela a <i>FG</i>.</li>
+        <li><i>FG</i> es paralela a <i>JK</i>. </li>
+        <li><i>DG</i>, <i>EF</i> y <i>AV</i> son concurrentes.</li>
+        <li>El tri&aacute;ngulo <i>VFG</i> es is&oacute;sceles.</li>
+      </ol>
+      <p><i>b</i>) <i>V </i>es el ortocentro de <i>AFG</i>.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td height="2"> 
+      <div align="right"> <font size="-1">Propuesto por Juan Bosco Romero M&aacute;rquez 
+        y Francisco Javier Garc&iacute;a Capit&aacute;n</font></div>
+    </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de <a href="http://garciacapitan.auna.com"><i>Francisco Javier 
+  Garc&iacute;a Capit&aacute;n</i></a></p>
+<p align="center">&nbsp;</p>
+<p align="center"><img src="bisectrices1.jpg" width="465" height="498"></p>
+<p align="center"><img src="bisectrices2.jpg" width="440" height="434"></p>
+<p>Usaremos coordendas baric&eacute;ntricas y <i>Mathematica</i> para resolver 
+  a la vez cada enunciado y su rec&iacute;proco. </p>
+<p><img src="cuentas1.jpg" width="128" height="18"></p>
+<p>Introducimos los puntos del problema.</p>
+<p><img src="cuentas2.jpg" width="599" height="328"></p>
+<p>Obtenemos, en forma factorizada, las expresiones que deber&aacute;n anularse 
+  para que se cumplan cada uno de los enunciados 1., 2. y 3., teniendo en cuenta 
+  que </p>
+<ul>
+  <li>dos rectas ser&aacute;n paralelas cuando se cortan en un punto cuyas coordenadas 
+    suman cero, es decir, un punto del infinito, y que</li>
+  <li>tres rectas son concurrentes cuando se anula el determinante de sus coeficientes.</li>
+</ul>
+<p><img src="cuentas3.jpg" width="445" height="153"></p>
+<p>La cuesti&oacute;n sobre el tri&aacute;ngulo is&oacute;sceles <i>VFG</i> la 
+  resolvemos usando la funci&oacute;n <b>CuadradoDistancia</b>.</p>
+<p><img src="cuentas4.jpg" width="446" height="63"></p>
+<p>Ahora, I=(<i>a</i>:<i>b</i>:<i>c</i>) es el incentro, y las rectas <i>cy</i> 
+  + <i>bz</i> = 0, <i>cy</i> <font face="Symbol">-</font> <i>bz</i> = 0 son las 
+  ecuaciones de las bisectrices interior y exterior del &aacute;ngulo <i>A</i>, 
+  lo que resuelve el apartado <i>a</i>).</p>
+<p>Para el apartado <i>b</i>) hacemos </p>
+<p><img src="cuentas5.jpg" width="447" height="41"></p>
+<p>lo que indica que <i>V</i> es siempre el ortocentro de <i>AFG</i>.</p>
+</BODY>
+</HTML>

@@ -1,0 +1,167 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Used macro
+
+CCIR, no name
+Icon:
+0000000000000000
+0000000000000000
+00FF00000000FF00
+00FFF000000FFF00
+00FFFF0000FFFF00
+00FF0FF00FF0FF00
+00FF00FFFF00FF00
+00FF000FF000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+0000000000000000
+0000000000000000
+0000000000000000
+Help:
+"Dado el traingulo construye la circunferencia circunscripta"
+Mth: 0
+CN:1, ON:4, FN:2, PO:3
+CT:
+triangle, CS 3, V, W, t, DS:1 1, GT:0, V, nSt
+Const:
+PBiss, Mth:1, 0, 1, CN:1, VN:2, Const: 4
+PBiss, Mth:1, 0, 0, CN:1, VN:2, Const: 4
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 5 6, R, W, t, DS:1 1, GT:1, V, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 2, Bl, W, t, DS:1 1, GT:0, V, nSt
+
+CINS, no name
+Icon:
+0000000000000000
+0000000000000000
+00FF00000000FF00
+00FFF000000FFF00
+00FFFF0000FFFF00
+00FF0FF00FF0FF00
+00FF00FFFF00FF00
+00FF000FF000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+0000000000000000
+0000000000000000
+0000000000000000
+Help:
+"Dado el triangulo construye la circunferencia inscripta."
+Mth: 0
+CN:1, ON:6, FN:3, PO:5
+CT:
+triangle, CS 3, V, W, t, DS:1 1, GT:0, V, nSt
+Const:
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 1 2 3
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 2 1 3
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 5 6, R, W, t, DS:1 1, GT:1, V, nSt
+Perp, Mth:0, 0, 512, CN:2, VN:2, Const: 7 4
+Int, Mth:0, 1, 2, CN:2, VN:1, Const: 4 8, R, W, t, DS:1 1, GT:1, V, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 9, Bl, W, t, DS:1 1, GT:0, V, nSt
+
+Figure description:
+
+Window center x: 0 y: 0 Window size x: 20.7433333333333 y: 12.1972916666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.10104166666667 0.47625
+
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -1.190625 3.83645833333333
+
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 5.37104166666667 0.582083333333333
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+Ma: CINS, Const: 6 i: 0
+"O", NP: -32, -75, NS: 12, 18
+9: Ma R, F No1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+p: 0, System, S: 0 C: 3 Fa: 0
+
+11: Ma R, F No2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+
+12: Ma R, F No3, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+
+Ma: CCIR, Const: 6 i: 0
+"O'", NP: 25, 25, NS: 16, 18
+15: Ma R, F No1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+p: 0, System, S: 0 C: 3 Fa: 0
+
+16: Ma R, F No2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+
+17: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 15
+
+18: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 17
+
+19: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 17
+
+"A", NP: -75, -53, NS: 10, 18
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 19 12
+p: 0, System, S: 0 C: 3 Fa: 0
+
+21: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 20 15
+
+"B", NP: -143, -81, NS: 12, 18
+22: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 21 16
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 187, -58, NS: 11, 18
+23: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 16
+p: 0, System, S: 0 C: 3 Fa: 0
+
+24: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 23
+
+"D", NP: 107, -154, NS: 12, 18
+25: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 19 16
+p: 0, System, S: 0 C: 3 Fa: 0
+
+26: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 9 20
+
+27: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 20 22
+

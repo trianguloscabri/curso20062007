@@ -1,0 +1,114 @@
+<HTML>
+<HEAD>
+<TITLE>trianguloscabri347</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.100" name=GENERATOR>
+</HEAD>
+<BODY bgColor=#ffffff>
+<H1>Problema 347 de <I>triánguloscabri</I> </H1>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FFFFCC" height="39"> 
+      <p> Construir un tri&aacute;ngulo conocidos la longitud del lado <i>a</i>, 
+        el &aacute;ngulo <i>B</i> y la medida de la longitud de una de las bisectrices 
+        interiores <i>w</i>a &oacute; <i>w</i>c.</p>
+      </td>
+  </tr>
+  <tr> 
+    <td height="2"> 
+      <div align="right"> <font size="-1">Propuesto por Francisco Alcubilla.</font> 
+      </div>
+    </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de <a href="http://garciacapitan.auna.com"><i>Francisco Javier 
+  Garc&iacute;a Capit&aacute;n</i></a></p>
+<h2>El caso <i>a</i>, <i>B</i> y <i>w</i>c</h2>
+<p><img src="347.jpg" width="409" height="403" align="right">Si son conocidos 
+  <i>a</i>, <i>B</i> y <i>w</i>c, podemos construir el tri&aacute;ngulo f&aacute;cilmente 
+</p>
+<ol>
+  <li>Situando el v&eacute;rtice B en una recta cualquiera, </li>
+  <li>Levantando por el v&eacute;rtice B otra recta que forme con la primera el 
+    &aacute;ngulo dado B.</li>
+  <li>Marcando el punto C sobre la primera recta de manera que <i>BC</i> = <i>a</i>.</li>
+  <li>Trazando una circunferencia con centro <i>C</i> y radio <i>w</i>c, que cortar&aacute; 
+    a la segunda recta en un punto <i>N</i> (elegiremos el punto m&aacute;s pr&oacute;ximo 
+    a <i>B</i>). </li>
+  <li>Trazando la recta sim&eacute;trica de <i>CB</i> respecto de <i>CN</i> obtendremos 
+    la recta <i>CA</i>, que determina el punto <i>A</i> sobre la segunda recta. 
+  </li>
+</ol>
+<p>Para que el problema tenga soluci&oacute;n debe ser <i>w</i>c &lt; <i>a</i>. 
+  Adem&aacute;s, <i>w</i>c debe ser mayor o igual que la distancia de <i>C</i> 
+  a la segunda recta. </p>
+<h2>El caso <i>a</i>, <i>B</i> y <i>w</i>a</h2>
+<p>En este caso no vemos una soluci&oacute;n tan r&aacute;pida como en el anterior 
+  y recurrimos a la geometr&iacute;a anal&iacute;tica. Para ello nos preparamos 
+  con unas cuantas funciones de Mathematica que nos simplifiquen los c&aacute;lculos:</p>
+<p><img src="347a.jpg" width="464" height="198"></p>
+<p><img src="347f.jpg" width="316" height="211" align="right">Ahora consideramos 
+  al punto <i>B</i> como origen de coordenadas y a la recta <i>BC</i> como eje 
+  <i>x</i>. La recta <i>BA</i> tendr&aacute; ecuaci&oacute;n <i>y</i> = <i>mx</i> 
+  siendo <i>m</i> la tangente del &aacute;ngulo <i>B</i>. </p>
+<p>El pie <i>L</i> de la bisectriz del &aacute;ngulo <i>A</i> sobre la recta <i>BC</i> 
+  ser&aacute; un punto a determinar, con coordenadas (<i>t</i>, 0). El v&eacute;rtice 
+  <i>A</i> estar&aacute; localizado sobre la recta <i>y = mx</i>, a una distancia 
+  <i>w</i>a de <i>L</i>. </p>
+<p>Para hallar el tercer v&eacute;rtice <i>C</i> hallamos el punto sim&eacute;trico 
+  <i>B' </i> de <i>B</i> respecto <i>AL</i> y entonces el punto <i>C</i> ser&aacute; 
+  la intersecci&oacute;n de <i>AB'</i> y <i>BL</i>. </p>
+<blockquote>
+  <p><img src="347b.jpg" width="565" height="149"></p>
+</blockquote>
+<p>La cuesti&oacute;n aqu&iacute; es determinar d&oacute;nde hay que considerar 
+  <i>L</i> para que la distancia <i>BC</i> obtenida sea igual a la dada <i>a</i>. 
+  Para expresar que <i>BC</i> = a, escribimos:</p>
+<blockquote>
+  <p><img src="347c.jpg" width="805" height="51"></p>
+</blockquote>
+<p>Para eliminar la ra&iacute;z hacemos</p>
+<blockquote>
+  <p><img src="347d.jpg" width="690" height="65"></p>
+</blockquote>
+<p>El factor que nos interesa es el &uacute;ltimo, el primero ha aparecido al 
+  elevar al cuadrado, observemos que en &eacute;l no aparece <i>a</i>). Entonces 
+  el polinomio del cual <i>t</i> es solución es:</p>
+<blockquote>
+  <p><img src="347e.jpg" width="884" height="47"></p>
+</blockquote>
+<p>Es un polinomio de grado 6, en general sus soluciones no ser&aacute;n construibles 
+  con regla y comp&aacute;s. Aqu&iacute; s&oacute;lo vamos a comprobar que en 
+  un caso particular el polinomio no es soluble por radicales, por lo que tampoco 
+  lo ser&aacute; el polinimo general.</p>
+<p>Usamos la teor&iacute;a expuesta por Titus Piezas III en <a href="http://www.geocities.com/titus_piezas/Sextic.pdf">Solving 
+  Solvable Sextics Using Polynomial Decomposition</a>. La idea clave de este art&iacute;culo 
+  es que <i>si un polinomio de grado seis con coeficientes racionales es resoluble 
+  por radicales, entonces una determinada resultante de grado 15 debe factorizarse</i>.</p>
+<p>Ahora consideramos el ejemplo con <i>m</i>=1, <i>a</i>=4, <i>w</i>a=3. </p>
+<blockquote>
+<p><img src="347g.jpg" width="438" height="45"></p>
+</blockquote>
+<p>Pedimos a <i>Mathematica</i> que halle sus seis soluciones:</p>
+<blockquote> 
+  <p><img src="347h.jpg" width="786" height="83"></p>
+</blockquote>
+<p>Despu&eacute;s hacemos:</p>
+<blockquote>
+  <p><img src="347i.jpg" width="756" height="64"></p>
+</blockquote>
+<p>Aqu&iacute; <b>RootReduce</b> da el polinomio m&iacute;nimo para el n&uacute;mero 
+  algebraico <i>t</i>1+<i>t</i>2. Este polonomio coincide con la resultante de 
+  grado 15 que aparece en el documento de Titus Piezas III. Podemos ver que se 
+  trata de un polinomio de grado 15, por lo que nuestra ecuaci&oacute;n de grado 
+  seis no es soluble por radicales. Si el resultado hubiera sido de grado menor, 
+  entonces el polinomio de grado seis hubiera sido soluble por radicales. </p>
+<p>Para encontrar un valor apoximado de las soluciones de nuestra ecuaci&oacute;n 
+  hacemos:<br>
+</p>
+<blockquote>
+  <p><img src="347j.jpg" width="536" height="45"></p>
+</blockquote>
+</BODY>
+</HTML>
+

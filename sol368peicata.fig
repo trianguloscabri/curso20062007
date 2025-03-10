@@ -1,0 +1,178 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -4.89479166666667 -1.00541666666667
+
+4: Line, 0, CN:1, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 1 0
+
+"O1", NP: -157, 39, NS: 19, 18
+5: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -4.15395833333333 -1.00541666666667
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+6: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4, Val: -5.26520833333333 -1.00541666666667
+
+7: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 6
+
+"O2", NP: -17, 39, NS: 19, 18
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -0.423333333333333 -1.00541666666667
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"A", NP: -109, 37, NS: 11, 18
+9: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 7 6
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+10: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 8 9
+
+11: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 10, Val: 1.83360041827098 0.3240100637304
+
+12: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 8 11
+
+13: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 12
+
+14: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 13 7
+
+15: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 11 14
+
+"P", NP: -262, 43, NS: 11, 18
+16: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 15
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+17: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 5 16
+
+18: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 17 5
+
+"B", NP: -182, -17, NS: 11, 18
+19: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 18
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+20: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 16 19
+
+"C", NP: -64, -72, NS: 11, 18
+21: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 10
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+22: Seg, 0, CN:2, VN:0
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 5
+
+23: Seg, 0, CN:2, VN:0
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 21 8
+
+24: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 9
+
+25: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 21
+
+26: AngVal, 0, CN:3, VN:1
+B, W, NbD:129, FD, deg, GT:0, V, nSt
+Const: 19 9 21, Val: 130 -89 1.5708, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+27: Text, 0, CN:4, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 19 9 21 26, Val: 56 -89 0, A, nP, TP: 1.48166666666667, 2.35479166666667,TS: 2.91041666666667, -0.47625
+"angle BAC= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+28: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -216 -140 0, nA, nP, TP: -5.715, 3.70416666666667,TS: 3.30729166666667, -0.635
+"Moveu O1, O2"
+p: 0, Arial, S: 19 C: 3 Fa: 0
+
+29: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 21 8, Val: 146 -42 99, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+30: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 21 8 29, Val: 123 -42 0, A, nP, TP: 3.254375, 1.11125,TS: 1.905, -0.47625
+"r2= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+31: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 19 5, Val: 148 -57 42, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+32: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 19 5 31, Val: 125 -57 0, A, nP, TP: 3.30729166666667, 1.508125,TS: 1.905, -0.47625
+"r1= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+33: AngVal, 0, CN:3, VN:1
+B, W, NbD:129, FD, deg, GT:0, V, nSt
+Const: 21 19 9, Val: 276 -45 0.99348, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+34: Text, 0, CN:4, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 21 19 9 33, Val: 206 -45 0, A, nP, TP: 5.45041666666667, 1.190625,TS: 2.80458333333333, -0.47625
+"angleCBA= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+35: Formula, 1, CN:2, VN:1
+B, W, NbD:2, nFD, deg, GT:0, V, nSt
+Const: 29 31, Val: 291 -20 0.99348, A, P, TP: 7.699375, 0.529166666666667,TS: 1.08479166666667, -0.423333333333333
+arccos(sqrt(2)/2)+(1/2)*arcsin((a-b)/(a+b))
+p: 0, System, S: 0 C: 15 Fa: 0
+
+36: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 35, Val: 107 -20 0, nA, nP, TP: 2.83104166666667, 0.529166666666667,TS: 6.00604166666667, -0.47625
+"45º+(1/2)arcsin((r2-r1)/(r1+r2))= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+

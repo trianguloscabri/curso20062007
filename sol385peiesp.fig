@@ -1,0 +1,262 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 5.13291666666667 y: -3.51895833333333 Window size x: 26.6435416666667 y: 16.5364583333333
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Num, 0, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Val: -171 -75 4.7, A, nP, TP: -4.524375, 1.984375,TS: 0.47625, -0.423333333333333
+4.7
+p: 0, System, S: 0 C: 15 Fa: 0
+
+4: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 3, Val: -187 -75 0, nA, nP, TP: -4.94770833333333, 1.984375,TS: 0.9525, -0.47625
+"r= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+5: Num, 0, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Val: -139 -92 12, A, nP, TP: -3.67770833333333, 2.43416666666667,TS: 0.370416666666667, -0.423333333333333
+12
+p: 0, System, S: 0 C: 15 Fa: 0
+
+6: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 5, Val: -184 -92 0, nA, nP, TP: -4.86833333333333, 2.43416666666667,TS: 1.61395833333333, -0.47625
+"s=h+b="#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+7: Formula, 1, CN:2, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Const: 5 3, Val: 355 -62 1.55319, A, P, TP: 9.39270833333334, 1.64041666666667,TS: 0.661458333333333, -0.423333333333333
+a/b-1
+p: 0, System, S: 0 C: 15 Fa: 0
+
+8: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 7, Val: 336 -62 0, nA, nP, TP: 8.89, 1.64041666666667,TS: 1.21708333333333, -0.47625
+"k= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+9: Formula, 1, CN:1, VN:1
+B, W, NbD:2, nFD, deg, GT:0, V, nSt
+Const: 7, Val: 381 0 1.91007, A, P, TP: 10.080625, 0,TS: 1.27, -0.423333333333333
+arccos((a-sqrt(20-4*a^2))/5)
+p: 0, System, S: 0 C: 15 Fa: 0
+
+10: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 9, Val: 360 0 0, nA, nP, TP: 9.525, 0,TS: 1.87854166666667, -0.47625
+"B= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+"O", NP: 36, 154, NS: 12, 18
+11: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.13770833333333 -4.07458333333333
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+12: Transf, 0, CN:2, VN:2
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 11 3, Val: -3.66561026902147 1.00164931769773
+
+13: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 11 12
+
+"B", NP: 41, -42, NS: 11, 18
+14: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 13, Val: 1.13770833333333 0.625416666666668
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+15: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 14 11
+
+16: Formula, 1, CN:1, VN:1
+B, W, NbD:2, nFD, deg, GT:0, V, nSt
+Const: 9, Val: 388 20 0.955035, A, P, TP: 10.2658333333333, -0.529166666666667,TS: 1.08479166666667, -0.423333333333333
+a/2
+p: 0, System, S: 0 C: 15 Fa: 0
+
+17: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 16, Val: 356 20 0, nA, nP, TP: 9.41916666666667, -0.529166666666667,TS: 1.984375, -0.47625
+"B/2= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+18: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 14 16
+
+19: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 11 14 16
+
+20: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 18 19
+
+"A", NP: 215, 85, NS: 11, 18
+21: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 13
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"C", NP: -138, 91, NS: 11, 18
+22: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 21 15
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+23: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 21 14
+
+"H", NP: 29, 97, NS: 11, 18
+24: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 15 23
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+25: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 14 24, Val: 483 -3 118.52, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+26: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 14 24 25, Val: 453 -3 0, A, nP, TP: 11.985625, 0.079375,TS: 2.09020833333333, -0.47625
+"BH= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+27: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 22 21, Val: 480 18 335.024, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+28: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 22 21 27, Val: 450 18 0, A, nP, TP: 11.90625, -0.47625,TS: 2.09020833333333, -0.47625
+"AC= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+29: Formula, 1, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Val: 253 -56 2.23607, A, P, TP: 6.69395833333333, 1.48166666666667,TS: 0.661458333333333, -0.423333333333333
+sqrt(5)
+p: 0, System, S: 0 C: 15 Fa: 0
+
+30: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 29, Val: 204 -56 0, nA, nP, TP: 5.3975, 1.48166666666667,TS: 2.01083333333333, -0.47625
+"sqrt(5)= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+31: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 24
+
+32: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 11 21
+
+33: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 24 11
+
+34: Formula, 1, CN:1, VN:1
+B, W, NbD:2, nFD, deg, GT:0, V, nSt
+Const: 7, Val: 371 107 0.304228, A, P, TP: 9.81604166666667, -2.83104166666667,TS: 1.08479166666667, -0.423333333333333
+arccos((a+sqrt(20-4*a^2))/5)
+p: 0, System, S: 0 C: 15 Fa: 0
+
+35: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 34, Val: 348 107 0, nA, nP, TP: 9.2075, -2.83104166666667,TS: 1.74625, -0.47625
+"B'= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+36: Formula, 1, CN:1, VN:1
+B, W, NbD:2, nFD, deg, GT:0, V, nSt
+Const: 34, Val: 376 128 0.152114, A, P, TP: 9.94833333333333, -3.38666666666667,TS: 0.899583333333333, -0.423333333333333
+a/2
+p: 0, System, S: 0 C: 15 Fa: 0
+
+37: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 36, Val: 342 128 0, nA, nP, TP: 9.04875, -3.38666666666667,TS: 1.85208333333333, -0.47625
+"B'/2= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+38: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 14 36
+
+39: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 11 14 36
+
+40: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 38 39
+
+"A'", NP: 97, 306, NS: 13, 18
+41: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 40 13
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"C'", NP: -19, 324, NS: 13, 18
+42: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 41 15
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+43: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 42 41 14
+
+"H'", NP: 46, 305, NS: 13, 18
+44: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 15 43
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+45: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 14 44, Val: 467 101 347.118, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+46: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 14 44 45, Val: 435 101 0, A, nP, TP: 11.509375, -2.67229166666667,TS: 2.143125, -0.47625
+"BH'= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+47: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 42 41, Val: 471 122 106.425, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+48: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 42 41 47, Val: 437 122 0, A, nP, TP: 11.5622916666667, -3.22791666666667,TS: 2.19604166666667, -0.47625
+"A'C'= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+49: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -201 -122 0, nA, nP, TP: -5.318125, 3.22791666666667,TS: 2.83104166666667, -0.635
+"Canviar r o s"
+p: 0, Arial, S: 19 C: 3 Fa: 0
+

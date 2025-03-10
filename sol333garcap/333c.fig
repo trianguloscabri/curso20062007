@@ -1,0 +1,140 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 3.43958333333333 y: -7.09083333333333 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Val: -6.13833333333333 3.59833333333333
+
+4: Line, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3, Val: 0 -1
+
+5: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4
+
+6: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -6.13833333333333 2.64583333333333
+
+7: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 6 4
+
+8: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 5, Val: -2.2225 3.59833333333333
+
+9: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 8
+
+10: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 7, Val: -1.13770833333333 2.64583333333333
+
+11: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 10
+
+"A", NP: 39, 169, NS: 13, 21
+12: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.873125 -4.86833333333333
+p: 0, Arial, S: 16 C: 6 Fa: 1
+
+"B", NP: 12, 315, NS: 14, 21
+13: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.211666666666667 -8.28145833333333
+p: 0, Arial, S: 16 C: 6 Fa: 1
+
+"C", NP: 207, 315, NS: 14, 21
+14: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Val: 5.68854166666667 -8.28145833333333
+p: 0, Arial, S: 16 C: 6 Fa: 1
+
+15: Line, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 13
+
+16: Line, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 14
+
+17: Line, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 12
+
+18: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 14 12 13
+
+19: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 14 13
+
+20: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 19 18
+
+21: Line, 0, CN:2, VN:2
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 20
+
+22: Line, 0, CN:1, VN:2
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 13, Val: 0.868544952606259 0.495610396684927
+
+23: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 21 22
+
+24: Line, 0, CN:2, VN:2
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 23
+
+25: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 17 22
+
+26: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 15 24
+
+27: Line, 0, CN:2, VN:2
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 25 26
+
+"D", NP: -103, 316, NS: 14, 21
+28: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 16 27
+p: 0, Arial, S: 16 C: 3 Fa: 1
+
+29: Line, 0, CN:2, VN:2
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 28
+
+"N", NP: 48, 315, NS: 14, 21
+30: Int, 0, CN:2, VN:1
+dG, W, t, DS:1 1, GT:1, V, nSt
+Const: 16 21
+p: 0, Arial, S: 16 C: 9 Fa: 1
+
+31: Text, 0, CN:0, VN:1
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Val: 171 77 0, nA, nP, TP: 4.524375, -2.03729166666667,TS: 2.43416666666667, -0.47625
+"AD^2 = DB·DC"
+p: 0, System, S: 13 C: 15 Fa: 1
+

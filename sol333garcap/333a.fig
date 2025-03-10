@@ -1,0 +1,60 @@
+Figure Cabri II Plus vers. MS-Windows 1.2.5
+
+Window center x: 0.00cm y: 0.00cm Window size x: 19.58cm y: 11.18cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+color:B, thicker, invisible, 
+
+2: Axes, Const: 1, cart, Val: 1 0 0 1
+invisible, 
+
+3: Pt, Val: -4.76315789473684 1.36842105263158
+color:B, thicker, 
+"B"
+TP:  -4.84210526315789,  1.26315789473684, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+4: Pt, Val: 0.789473684210526 1.36842105263158
+color:B, thicker, 
+"C"
+TP:  0.710526315789474,  1.23684210526316, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+5: Seg, Const: 3,  4, 
+color:B, 
+
+6: Mid, Const: 5, 
+color:B, thicker, invisible, 
+
+7: Cir, Const: 6,  4, 
+invisible, 
+
+8: Pt/, Const: 7, Val: -3.5967648413408 3.63029597108777
+color:B, thicker, 
+"A"
+TP:  -3.76315789473684,  4.18421052631579, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+9: Seg, Const: 3,  8, 
+color:B, 
+
+10: Seg, Const: 8,  4, 
+color:B, 
+
+11: Perp, Const: 8,  5, 
+invisible, 
+
+13: Int, Const: 5,  11, int ind:0, 
+color:B, thicker, 
+"D"
+TP:  -3.68421052631579,  1.28947368421053, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+14: Seg, Const: 8,  13, 
+color:B, 
+
+15: Angle, Const: 3,  8,  4, Val: 1 1
+
+16: Angle, Const: 8,  13,  4, Val: 1 1
+

@@ -1,0 +1,160 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 5.1'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[      3511,        110]*)
+(*NotebookOutlinePosition[      4217,        134]*)
+(*  CellTagsIndexPosition[      4173,        130]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+  StyleBox["Teorema",
+    FontWeight->"Bold"],
+  ". En todo tri\[AAcute]ngulo inscrito en una hip\[EAcute]rbola equil\
+\[AAcute]tera, el punto de intersecci\[OAcute]n de las alturas est\[AAcute] \
+situado sobre la curva."
+}], "Subsubtitle"],
+
+Cell["\<\
+Brianchon y Poncelet,Annales de Montpellier,Tomo XI,1 de Enero de 1821.\
+\>", "Text",
+  TextAlignment->Right],
+
+Cell["\<\
+Definimos una funci\[OAcute]n para hallar la recta perpendicular por un punto \
+a la recta que pasa por otros dos:\
+\>", "Text"],
+
+Cell[BoxData[
+    \(\(Perpendicular[{x1_, y1_}, {x2_, y2_}, {x3_, 
+            y3_}]\  := \[IndentingNewLine]\((x3 - x2)\) \((x - 
+                  x1)\) + \((y3 - y2)\) \((y - y1)\) \[Equal] 0;\)\)], "Input"],
+
+Cell["\<\
+Hallamos el ortocentro de un tri\[AAcute]ngulo como intersecci\[OAcute]n de \
+dos alturas:\
+\>", "Text"],
+
+Cell[BoxData[
+    \(\(Ortocentro[ptA_, ptB_, 
+          ptC_] := {x, 
+            y} /. \[IndentingNewLine]\(Solve[{Perpendicular[ptA, ptB, 
+                  ptC], \[IndentingNewLine]Perpendicular[ptB, ptC, ptA]}, {x, 
+                y}]\)[\([1]\)];\)\)], "Input"],
+
+Cell[TextData[{
+  "No hay p\[EAcute]rdida de generalidad en suponer que la hip\[EAcute]rbola \
+equil\[AAcute]tera tiene ecuaci\[OAcute]n  ",
+  StyleBox["x y",
+    FontSlant->"Italic"],
+  " = ",
+  StyleBox["k",
+    FontSlant->"Italic"],
+  ". Al hallar el ortocentro del tri\[AAcute]ngulo formado por tres puntos de \
+la hip\[EAcute]rbola obtenemos un punto que est\[AAcute] en la curva:"
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Ortocentro[{a, k/a}, {b, k/b}, {c, k/c}]\)], "Input"],
+
+Cell[BoxData[
+    \({\(-\(k\^2\/\(a\ b\ c\)\)\), \(-\(\(a\ b\ c\)\/k\)\)}\)], "Output"]
+}, Open  ]]
+}, Open  ]]
+},
+FrontEndVersion->"5.1 for Microsoft Windows",
+ScreenRectangle->{{0, 1024}, {0, 695}},
+WindowSize->{1016, 668},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1776, 53, 256, 6, 31, "Subsubtitle"],
+Cell[2035, 61, 119, 3, 33, "Text"],
+Cell[2157, 66, 138, 3, 33, "Text"],
+Cell[2298, 71, 210, 3, 50, "Input"],
+Cell[2511, 76, 114, 3, 33, "Text"],
+Cell[2628, 81, 266, 5, 70, "Input"],
+Cell[2897, 88, 398, 10, 52, "Text"],
+
+Cell[CellGroupData[{
+Cell[3320, 102, 73, 1, 30, "Input"],
+Cell[3396, 105, 87, 1, 45, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

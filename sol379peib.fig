@@ -1,0 +1,251 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 5.10645833333333 y: -3.33375 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"hb", NP: -151, -112, NS: 16, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.70416666666667 2.64583333333333
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -0.635 2.64583333333333
+
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -0.767291666666667 2.69875
+
+"B", NP: -248, -109, NS: 11, 18
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -6.16479166666667 2.778125
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+7: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+"L", NP: 22, -109, NS: 9, 18
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7, Val: 0.977612994350281 2.64583333333333
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+9: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 3 8, Val: 170 -80 176.949, A, P
+p: 0, Arial, S: 13 C: 6 Fa: 0
+
+10: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 3 8 9, Val: 144 -80 0, A, nP, TP: 3.81, 2.11666666666667,TS: 1.984375, -0.47625
+"hb= "#"
+p: 0, Arial, S: 13 C: 6 Fa: 0
+
+11: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -4.73604166666667 2.778125
+
+12: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 6 11
+
+13: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 6 11
+
+14: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 12 13 11
+
+15: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 13, Val: -7.42141188601468 3.45800159676279
+
+16: Arc, 0, CN:3, VN:5
+R, W, t, DS:1 1, GT:0, I, nSt
+Const: 14 15 11
+
+"N", NP: -201, -160, NS: 11, 18
+17: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 16, Val: -5.15451285304639 3.78840381362028
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+18: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 11
+
+19: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 17
+
+20: AngVal, 0, CN:3, VN:1
+B, W, NbD:130, FD, deg, GT:0, V, nSt
+Const: 11 6 17, Val: 165 -60 0.785398, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+21: Text, 0, CN:4, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 11 6 17 20, Val: 144 -60 0, A, nP, TP: 3.81, 1.5875,TS: 1.69333333333333, -0.47625
+"B= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+22: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 11 6 17, Val: 1, 1
+
+23: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 140 -38 0, nA, nP, TP: 3.70416666666667, 1.00541666666667,TS: 1.85208333333333, -0.635
+"Solució:"
+p: 0, Arial, S: 19 C: 9 Fa: 0
+
+24: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -143 -177 0, nA, nP, TP: -3.78354166666667, 4.683125,TS: 11.826875, -0.635
+"Resolució d'un triangle isòsceles a=c coneguts hb, B"
+p: 0, Arial, S: 19 C: 3 Fa: 0
+
+25: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -104 -150 0, nA, nP, TP: -2.75166666666667, 3.96875,TS: 3.38666666666667, -0.635
+"Moveu L,M,o N"
+p: 0, Arial, S: 19 C: 3 Fa: 0
+
+"B
+", NP: -191, 159, NS: 11, 34
+26: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.841875 -4.1275
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+27: Ray, 0, CN:1, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 26, Val: 1 0
+
+28: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 27, Val: -3.841875 -4.1275
+
+29: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 28 26 20
+
+30: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 26 26 20
+
+31: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 27, Val: -3.841875 -4.1275
+
+32: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 31 26 20
+
+33: Ray, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 30 32
+
+Ma: Compass, Const: 3 i: 0 8 i: 0 26 i: 0
+36: Ma R, F No1, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+
+"H'", NP: -8, 163, NS: 13, 18
+37: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 27 36
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+38: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 33 36
+
+"r", NP: 32, 68, NS: 6, 18
+39: Biss, 0, CN:3, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 38 26 37
+p: 0, Arial, S: 13 C: 12 Fa: 0
+
+"H", NP: -11, 83, NS: 11, 18
+40: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 39 36
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"s", NP: 34, 197, NS: 9, 18
+41: Perp, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 40 39
+p: 0, Arial, S: 13 C: 12 Fa: 0
+
+"A", NP: 14, 151, NS: 11, 18
+42: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 27 41
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"C", NP: -43, 15, NS: 11, 18
+43: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 33 41
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+44: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 43 42, Val: 166 0 146.589, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+45: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 43 42 44, Val: 147 0 0, A, nP, TP: 3.889375, 0,TS: 1.79916666666667, -0.47625
+"b= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+46: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 26 43, Val: 181 -14 191.528, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+47: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 26 43 46, Val: 147 -14 0, A, nP, TP: 3.889375, 0.370416666666667,TS: 2.19604166666667, -0.47625
+"a=c= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+48: AngVal, 0, CN:3, VN:1
+B, W, NbD:130, FD, deg, GT:0, V, nSt
+Const: 26 42 43, Val: 188 20 1.1781, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+49: Text, 0, CN:4, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 26 42 43 48, Val: 146 20 0, A, nP, TP: 3.86291666666667, -0.529166666666667,TS: 2.24895833333333, -0.47625
+"A=C=  "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+50: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 26 42 43
+
+51: Area, 1, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 50, Val: 178 48 12969.4, A, P
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+52: Text, 1, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 50 51, Val: 141 48 0, A, nP, TP: 3.730625, -1.27,TS: 2.38125, -0.47625
+"àrea= "#"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+

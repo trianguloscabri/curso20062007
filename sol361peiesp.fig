@@ -1,0 +1,132 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 5.18583333333333 y: -3.46604166666667 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 42, 186, NS: 11, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.978958333333333 -5.05354166666667
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"B", NP: 204, 186, NS: 11, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 5.26520833333333 -5.05354166666667
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+5: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+"H", NP: 101, 135, NS: 11, 18
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.54 -3.70416666666667
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+7: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 291 -31 0, nA, nP, TP: 7.699375, 0.820208333333333,TS: 6.19125, -0.899583333333333
+"1.- Recta r perpendicular a AB que pasa por H. Corta AB en el punto Hc"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+"r", NP: 98, -8, NS: 6, 18
+8: Perp, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 5
+p: 0, Arial, S: 13 C: 12 Fa: 0
+
+"Hc", NP: 81, 192, NS: 18, 18
+9: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 8
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+10: Line, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 6
+
+11: Line, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 4
+
+12: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 297 13 0, nA, nP, TP: 7.858125, -0.343958333333333,TS: 2.91041666666667, -0.47625
+"2.- Rectas AH, BH"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+13: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 298 31 0, nA, nP, TP: 7.88458333333333, -0.820208333333333,TS: 3.889375, -0.47625
+"3.- Punto midio P de BH."
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+"P", NP: 153, 161, NS: 11, 18
+14: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 4
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+15: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 297 56 0, nA, nP, TP: 7.858125, -1.48166666666667,TS: 4.70958333333333, -0.899583333333333
+"4.- Circunferencia de centro P que pasa por B"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+16: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 9
+
+17: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 300 93 0, nA, nP, TP: 7.9375, -2.460625,TS: 4.28625, -0.899583333333333
+"5.- Intersección Ha de la circunferencia y la recta AH"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+"Ha", NP: 128, 92, NS: 18, 18
+18: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 16
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+19: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 18 4
+
+20: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 303 125 0, nA, nP, TP: 8.016875, -3.30729166666667,TS: 2.2225, -0.47625
+"6.- Recta BHa"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+21: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 303 145 0, nA, nP, TP: 8.016875, -3.83645833333333,TS: 5.92666666666667, -0.47625
+"7.- Intersección C de las rectas r, BHa"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+"C", NP: 101, 66, NS: 11, 18
+22: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 19
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+23: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 305 167 0, nA, nP, TP: 8.06979166666667, -4.41854166666667,TS: 4.28625, -0.47625
+"8.- Dibujo del triángulo ABC"
+p: 0, Arial, S: 13 C: 15 Fa: 0
+
+24: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 22
+

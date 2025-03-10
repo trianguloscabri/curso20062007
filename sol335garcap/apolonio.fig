@@ -1,0 +1,95 @@
+Figure Cabri II Plus vers. MS-Windows 1.2.5
+
+Window center x: -1.61cm y: 0.87cm Window size x: 19.58cm y: 11.18cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+color:B, thicker, invisible, 
+
+2: Axes, Const: 1, cart, Val: 1 0 0 1
+invisible, 
+
+3: Pt, Val: -4.05263157894737 3.26315789473684
+color:B, thicker, 
+"A"
+TP:  -4.28947368421053,  3.81578947368421, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+4: Pt, Val: -3.57894736842105 0.684210526315789
+color:B, thicker, 
+"B"
+TP:  -3.71052631578947,  0.578947368421053, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+5: Pt, Val: 1.07894736842105 0.684210526315789
+color:B, thicker, 
+"C"
+TP:  0.921052631578947,  0.605263157894737, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+6: Line, Const: 4,  5, 
+color:B, 
+
+7: Tr, Const: 3,  4,  5, 
+color:Bl, fill color:kki, 
+
+8: Biss, Const: 5,  3,  4, 
+color:B, invisible, 
+
+10: Int, Const: 8,  6, int ind:0, 
+color:B, thicker, 
+"L"
+TP:  -2.02631578947368,  0.605263157894737, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+11: Perp, Const: 3,  8, 
+color:B, invisible, 
+
+13: Int, Const: 6,  11, int ind:0, 
+color:B, thicker, 
+"L'"
+TP:  -7.92105263157895,  0.578947368421053, TS:  0.789473684210526,  0.473684210526316
+p: 0, Arial, S: 12 C: 40 Fa: 0
+
+14: Seg, Const: 13,  3, 
+color:B, 
+
+15: Seg, Const: 3,  10, 
+color:B, 
+
+16: Mid, Const: 10,  13, 
+color:B, thicker, 
+"U"
+TP:  -4.94736842105263,  0.578947368421053, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+17: Cir, Const: 16,  10, 
+color:dkg, thicker, 
+"Circunferencia de Apolonio"
+TP:  -3.34210526315789,  -1.57894736842105, TS:  2.94736842105263,  0.894736842105263
+p: 0, Arial, S: 11 C: 24 Fa: 0
+
+18: PBiss, Const: 7, side:2, 
+color:B, invisible, 
+
+19: PBiss, Const: 7, side:0, 
+color:B, invisible, 
+
+21: Int, Const: 18,  19, int ind:0, 
+color:B, thicker, 
+"O"
+TP:  -1.13157894736842,  2.81578947368421, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+22: Cir, Const: 21,  4, 
+color:B, 
+"Circunferencia circunscrita"
+TP:  1.76315789473684,  2.21052631578947, TS:  2.63157894736842,  0.894736842105263
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+23: Seg, Const: 21,  3, 
+color:B, 
+
+24: Seg, Const: 3,  16, 
+color:B, 
+

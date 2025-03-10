@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<TITLE>trianguloscabri336</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.100" name=GENERATOR>
+</HEAD>
+<BODY bgColor=#ffffff>
+<H1>Problema 336 de <I>triánguloscabri</I> </H1>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FFFFCC" height="18"> 
+      <p>En un triangulo <i>ABC</i>, con la notaci&oacute;n habitual demostrar 
+        que: </p>
+      <p align="center"><img 
+            alt="\frac{(4 R+r)^{2}}{3}\geq r_{a}r_{b}+r_{b}r_{c}+r_{c}r_{a}\geq \frac{27Rr}{2}." 
+            src="imgs/01.gif" ></p>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="right"><font size="-1">Propuesto por Jos&eacute; Carlos Ch&aacute;vez 
+        Sandoval </font></div>
+    </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de <a href="http://garciacapitan.auna.com"><i>Francisco Javier 
+  Garc&iacute;a Capit&aacute;n</i></a><br>
+  <br>
+  Usando la identidad <img alt="r_{a}r_{b}+r_{b}r_{c}+r_{c}r_{a}= 4 R+r" src="imgs/02.gif" align="abscenter">, 
+  cuya justificaci&oacute;n puede verse <a href="erres/index.htm">aqu&iacute;</a>, 
+  la primera desigualdad se convierte en </p>
+<p style="TEXT-ALIGN: center"><img 
+            alt="(r_{a}r_{b}+r_{b}r_{c}+r_{c}r_{a})^{2}\geqslant 3(r_{a}r_{b}+r_{b}r_{c}+r_{c}r_{a}) \Rightarrow r_{a}^{2}+r_{b}^{2}+r_{c}^{2}\geqslant r_{a}r_{b}+r_{b}r_{c}+r_{c}r_{a}." 
+            src="imgs/03.gif"></p>
+Esta desigualdad siempre es cierta incluso para valores negativos de las variables 
+<img 
+            alt="r_{a}, r_{b}, r_{c}" 
+            src="imgs/17.gif">, ya que aplicando la desigualdad de Cauchy-Schwarz 
+a los vectores <img 
+            alt=u=(r_{a},r_{b},r_{c}) 
+            src="imgs/04.gif" align="absmiddle"> y <img   
+            alt=v=(r_{b},r_{c},r_{a}) 
+            src="imgs/05.gif" align="absmiddle"> tendremos 
+<p style="TEXT-ALIGN: center"><img 
+            alt="\begin{aligned}&amp; u \cdot v \leqslant \left| u \right| \cdot \left| v \right| \\ \Rightarrow &amp; r_{a}r_{b}+r_{b}r_{c}+r_{c}r_{a}\leqslant \sqrt{r_{a}^{2}+r_{b}^{2}+r_{c}^{2}}\sqrt{r_{b}^{2}+r_{c}^{2}+r_{a}^{2}}= r_{b}^{2}+r_{c}^{2}+r_{a}^{2}. \\ \end{aligned}" 
+            src="imgs/06.gif" ></p>
+Ahora, siendo <img 
+            alt=s src="imgs/07.gif" align="absmiddle"> el semiper&iacute;metro 
+de <img alt=ABC src="imgs/08.gif"  align="absmiddle"> y multiplicando los valores 
+<p style="TEXT-ALIGN: center"><img 
+            alt="r_{a}= s\tan \frac{A}{2}= s\sqrt{\frac{{(s-b)(s-c)}}{{s(s-a)}}},\quad r_{n}= s\tan \frac{B}{2}= s\sqrt{\frac{{(s-c)(s-a)}}{{s(s-b)}},}" 
+            src="imgs/09.gif" ></p>
+obtenemos <img    
+            alt="r_{a}r_{b}= s (s-c)" 
+            src="imgs/10.gif"  align="absmiddle">, y como de forma an&aacute;loga 
+es <img alt="r_{b}r_{c}= s(s-a)" 
+     src="imgs/13.gif"  align="absbottom"> y <img 
+            alt="r_{c}r_{a}= s(s-b)" 
+            src="imgs/14.gif"  align="absmiddle">, tenemos 
+<p style="TEXT-ALIGN: center"><img 
+            alt="r_{a}r_{b}+r_{b}r_{c}+r_{c}r_{a}= s(s-c)+s(s-a)+s(s-b) = s(3s-2s) = s^{2}." 
+            src="imgs/15.gif" align="absmiddle"></p>
+Por otro lado, siendo <img 
+            alt=S src="imgs/16.gif"  align="absmiddle"> el &aacute;rea del tri&aacute;ngulo 
+<img 
+
+            alt=ABC src="imgs/08.gif"  align="absmiddle">, de las f&oacute;rmulas 
+del &aacute;rea obtenemos 
+<p style="TEXT-ALIGN: center"><img 
+            alt="R = \frac{{abc}}{{4S}},r = \frac{S}{s}\Rightarrow Rr = \frac{{abc}}{{4S}}\cdot \frac{S}{s}= \frac{{abc}}{{4s}}\Rightarrow \frac{{27Rr}}{2}= \frac{{27abc}}{{8s}}," 
+            src="imgs/11.gif" ></p>
+por lo que la segunda desigualdad propuesta se escribe 
+<p style="TEXT-ALIGN: center"><img 
+            alt="s^{2}\geqslant \frac{{27abc}}{{8s}}\Leftrightarrow 8s^{3}\geqslant 27abc \Leftrightarrow (\frac{{2s}}{3})^{3}\geqslant abc \Leftrightarrow \frac{{a+b+c}}{3}\geqslant \sqrt[3]{{abc}}," 
+            src="imgs/12.gif"  align="absmiddle"></p>
+<p>que es la conocida desigualdad entre las medias aritm&eacute;tica y geom&eacute;trica.</p>
+</BODY>
+</HTML>
+

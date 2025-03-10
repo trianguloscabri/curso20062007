@@ -1,0 +1,98 @@
+Figure Cabri II Plus vers. MS-Windows 1.2.5
+
+Window center x: -7.84cm y: 5.53cm Window size x: 19.58cm y: 11.18cm
+Resolution: 38 ppc
+
+1: Pt, Val: 0 0
+color:B, thicker, invisible, 
+
+2: Axes, Const: 1, cart, Val: 1 0 0 1
+invisible, 
+
+3: Pt, Val: -6.42105263157895 7.15789473684211
+color:B, thicker, 
+"A"
+TP:  -6.52631578947368,  7.63157894736842, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+4: Pt, Val: -7.94736842105263 1.86842105263158
+color:B, thicker, 
+"B"
+TP:  -8.10526315789474,  1.76315789473684, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+5: Pt, Val: -0.342105263157895 1.86842105263158
+color:B, thicker, 
+"C"
+TP:  -0.368421052631579,  1.78947368421053, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+6: Tr, Const: 3,  4,  5, 
+color:B, fill color:kki, 
+
+7: Perp, Const: 3,  6, side:1, 
+color:B, invisible, 
+
+8: Perp, Const: 4,  6, side:2, 
+color:B, invisible, 
+
+9: Perp, Const: 5,  6, side:0, 
+color:B, invisible, 
+
+11: Int, Const: 6,  9, int ind:0, 
+color:B, thicker, 
+"Z"
+TP:  -7.76315789473684,  4.23684210526316, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+13: Int, Const: 6,  8, int ind:0x2, 
+color:B, thicker, 
+"Y"
+TP:  -4.63157894736842,  6.07894736842105, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+15: Int, Const: 8,  9, int ind:0, 
+color:B, thicker, 
+"H"
+TP:  -6.34210526315789,  3.52631578947368, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+17: Int, Const: 6,  7, int ind:0x1, 
+color:B, thicker, 
+"X"
+TP:  -6.42105263157895,  1.73684210526316, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+18: Seg, Const: 3,  17, 
+color:B, 
+
+19: Seg, Const: 4,  13, 
+color:B, 
+
+20: Seg, Const: 5,  11, 
+color:B, 
+
+21: Line, Const: 4,  5, 
+color:B, invisible, 
+
+22: Line, Const: 13,  11, 
+color:B, invisible, 
+
+24: Int, Const: 21,  22, int ind:0, 
+color:B, thicker, 
+"S"
+TP:  -10.5526315789474,  1.78947368421053, TS:  0.789473684210526,  0.447368421052632
+p: 0, Arial, S: 11 C: 40 Fa: 0
+
+25: Seg, Const: 24,  13, 
+color:B, 
+
+26: Angle, Const: 4,  11,  5, Val: 1 1
+color:R, 
+
+27: Angle, Const: 4,  13,  5, Val: 1 0.4
+color:R, 
+
+28: Seg, Const: 24,  4, 
+color:B, 
+

@@ -1,0 +1,148 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.2225 y: 1.45520833333333 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Val: -5.13291666666667 4.81541666666667
+
+4: Line, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3, Val: 0 -1
+
+5: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4
+
+"p", NP: -110, -191, NS: 10, 18
+6: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 5, Val: -3.06916666666667 4.81541666666667
+p: 0, System, S: 0 C: 6 Fa: 0
+
+7: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 6
+
+8: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -5.13291666666667 4.18041666666667
+
+9: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 8 4
+
+"s", NP: 20, -167, NS: 10, 18
+10: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 9, Val: 0.343958333333333 4.18041666666667
+p: 0, System, S: 0 C: 6 Fa: 0
+
+11: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 8 10
+
+12: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -161 296 0, nA, nP, TP: -4.25979166666667, -7.83166666666667,TS: 11.826875, -4.70958333333333
+"Trazamos una recta y sobre ella situamos el vértice C.
+Marcamos los puntos D tal que CD = a + s y el punto medio E de CD.
+Marcamos por el otro lado el punto F tal que FC=s - a
+Trazamos la circunferencia de diámetro FE y levantamos por C una perpendicular a FE que corta a la circunferencia en I. 
+Trazamos otra circunferencia de diámetro HC =s=b+c  y una paralela a HC por I que corta a dicha circunferencia en J y K. 
+La proyección ortogonal de J (otra solución aparece considerando K) sobre FE da el punto B y una perpendicular BA = BH a AC da el punto A.
+"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"A", NP: -98, -39, NS: 13, 21
+13: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.19604166666667 1.00541666666667
+p: 0, Arial, S: 16 C: 6 Fa: 1
+
+14: Par, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 11
+
+Ma: Compass, Const: 11 i: 0 13 i: 0
+17: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"B", NP: 127, -37, NS: 14, 21
+18: Int, 0, CN:2, VN:1
+B, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 17
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+19: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 13 18
+
+20: Cir, 0, CN:2, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 13
+
+21: Perp, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 18 14
+
+Ma: Compass, Const: 7 i: 0 18 i: 0
+24: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"C", NP: 121, -135, NS: 14, 21
+25: Int, 0, CN:2, VN:1
+B, W, t, DS:1 1, GT:1, V, nSt
+Const: 21 24
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+26: Par, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 25 14
+
+"D", NP: 89, -135, NS: 14, 21
+27: Int, 32768, CN:2, VN:1
+B, W, t, DS:1 1, GT:1, V, nSt
+Const: 26 20
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+28: Perp, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 27 26
+
+"F", NP: 87, -36, NS: 12, 21
+29: Int, 0, CN:2, VN:1
+B, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 28
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+30: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 18 25
+
+"E", NP: -60, -133, NS: 13, 21
+31: Int, 33024, CN:2, VN:1
+B, W, t, DS:1 1, GT:1, V, nSt
+Const: 26 20
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+32: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 31 25
+
+33: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 27 29
+
+34: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 18
+

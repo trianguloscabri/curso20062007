@@ -1,0 +1,111 @@
+ 
+<HTML><HEAD><TITLE>trianguloscabri331</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.100" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<H1>Problema 331 de <I>triánguloscabri</I> </H1>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FFFFCC" height="14"> 
+      <p><b>29.</b> Construir un triángulo rectángulo dada la hipotenusa y la 
+        suma de los catetos.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td height="3"> 
+      <div align="right">Severi, F. (1952) : Elementos de geometría I. </div>
+    </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de <a href="http://garciacapitan.auna.com"><i>Francisco Javier 
+  Garc&iacute;a Capit&aacute;n</i></a> </p>
+<p>Presentamos dos soluciones una algebraica/geom&eacute;trica y otra geom&eacute;trica 
+</p>
+<h2><img src="sistema.jpg" width="357" height="272" align="right">Primer m&eacute;todo 
+  (usando el &aacute;lgebra)</h2>
+<h3>Soluciones de una ecuaci&oacute;n de segundo grado</h3>
+<p>Vamos a resolver el problema atac&aacute;ndolo desde un punto de vista algebraico. 
+  Para ello necesitaremos saber resolver gr&aacute;ficamente un sistema del tipo</p>
+<table width="65%" border="0">
+  <tr> 
+    <td width="48%">&nbsp;</td>
+    <td width="48%"><img src="ecuacion1.gif" width="72" height="50"></td>
+    <td width="4%"> 
+      <div align="right">(1)</div>
+    </td>
+  </tr>
+</table>
+<p>o lo que es lo mismo hallar gr&aacute;ficamente las soluciones de la ecuaci&oacute;n 
+  <img src="ecuacion2.gif" width="106" height="24" align="absmiddle"> </p>
+<p>Para ello construimos una circunferencia con di&aacute;metro <i>AB</i> = <i>s</i>, 
+  y por uno de sus extremos (<i>B</i> en la figura) levantamos una perpendicular 
+  BC = <i>p</i>. La paralela por <i>C</i> a <i>AB</i> cortar&aacute;, en general, 
+  en dos puntos <i>D</i> y <i>E</i> a la circunferencia. Por uno de ellos, por 
+  ejemplo <i>D</i>, trazamos una perpendicular a <i>AB</i>, que corta a &eacute;sta 
+  en <i>F</i>. Entonces los segmentos <i>x</i> = <i>AF</i> e <i>y</i> = <i>FB</i> 
+  cumplen (1).</p>
+<p>Si el producto <i>xy</i> debiera ser igual al producto de dos cantidades <i>m</i> 
+  y <i>n</i>, bastar&iacute;a hallar previamente la media geom&eacute;trica <i>p</i> 
+  de <i>m</i> y <i>n</i>. </p>
+<h3>Soluci&oacute;n algebraica</h3>
+<p>Si son conocidas la hipotenusa <i>a</i> y la suma <i>s</i> de los catetos <i>b</i> 
+  y <i>c</i>, tendremos</p>
+<blockquote> 
+  <p><img src="ecuacion3.gif" width="513" height="66"></p>
+</blockquote>
+<p>Entonces b y c pueden obtenerse como las soluciones de (1) siendo <i>s</i> 
+  la suma dada y <i>p</i> la media geome&eacute;trica de las longitudes (<i>s</i>+<i>a</i>)/2 
+  y (<i>s</i>-<i>a</i>). </p>
+<h3>Construcci&oacute;n con Cabri</h3>
+<p>Las consideraciones anteriores llevan a la siguiente construcci&oacute;n:</p>
+<ol>
+  <li>Trazamos una recta y sobre ella situamos el v&eacute;rtice <i>C</i>.</li>
+  <li>Marcamos los puntos <i>D</i> tal que <i>CD</i> = <i>a</i> + <i>s</i> y el 
+    punto medio <i>E</i> de <i>CD</i>.</li>
+  <li>Marcamos por el otro lado el punto <i>F</i> tal que <i>FC</i>=<i> s</i><font face="Symbol">-</font><i>a</i>.</li>
+  <li>Trazamos la circunferencia de di&aacute;metro <i>FE</i> y levantamos por 
+    <i>C</i> una perpendicular a <i>FE</i> que corta a la circunferencia en <i>I</i>. 
+  </li>
+  <li>Trazamos otra circunferencia de di&aacute;metro <i>HC</i> =<i>s</i>=<i>b</i>+<i>c</i> 
+    y una paralela a <i>HC</i> por <i>I</i> que corta a dicha circunferencia en 
+    <i>J</i> y <i>K</i>. </li>
+  <li>La proyecci&oacute;n ortogonal de <i>J</i> sobre <i>FE</i> da el punto <i>B</i> 
+    y una perpendicular <i>BA</i> = <i>BH</i> a <i>AC</i> da el punto <i>A</i>.</li>
+</ol>
+<p align="center"><applet codebase="../" archive="CabriJava.jar" 
+code="CabriJava.class"
+width=600 height=400 align="middle">
+    <param name=file value="331a.fig">
+    <param name=lang value="es">
+    <param name=border value=0>
+    <param name=bgcolor value=#FFFFCC>
+    <param name=controller value=true>
+  </applet></p>
+<h2 align="left">Segundo m&eacute;todo (an&aacute;lisis geom&eacute;trico)</h2>
+<p><img src="331c.jpg" width="216" height="242" align="right">Vamos a suponer 
+  construido el tri&aacute;ngulo pedido <i>ABC</i> y vamos a tratar de situar 
+  en ella los datos que nos da el problema.</p>
+<p>Completamos cada uno de los catetos con el otro, teniendo un tri&aacute;ngulo 
+  rect&aacute;ngulo <i>AMN</i> is&oacute;sceles cuyos lados iguales miden <i>s</i>. 
+</p>
+<p>Las paralelas por <i>B</i> y <i>C</i> a <i>AC</i> y <i>AB</i> respectivamente 
+  se cortan en un punto <i>D</i> sobre <i>MN</i> y es evidente que <i>AD</i> = 
+  <i>BC</i> = <i>a</i>, lo que permite obtener el punto <i>D</i> con los datos 
+  del problema:</p>
+<ol>
+  <li> Dibujamos el tri&aacute;ngulo is&oacute;sceles <i>AMN</i> rect&aacute;ngulo 
+    en <i>A</i>. </li>
+  <li>Con centro en A y radio <i>a</i> trazamos un arco que determina <i>D</i> 
+    sobre <i>MN</i> (habr&iacute;a en general dos puntos, pero dando lugar a dos 
+    tri&aacute;ngulos soluci&oacute;n iguales).</li>
+  <li>Trazamos una perpendicular a <i>AM</i> por <i>C</i> que da lugar y tenemos 
+    el tri&aacute;ngulo <i>ACD</i> soluci&oacute;n del problema. </li>
+</ol>
+<h2>Discusi&oacute;n de la soluci&oacute;n</h2>
+<p>En esta &uacute;ltima soluci&oacute;n puede verse f&aacute;cilmente que el 
+  arco con centro A y radio <i>a</i> debe cortar al segmento <i>MN</i>, para lo 
+  que es necesario que se cumpla que <img src="ecuacion4.gif" width="82" height="22" align="absmiddle"> 
+  La &uacute;ltima igualdad se dar&aacute; cuando <i>AD</i> sea la mediatriz de 
+  <i>MN</i> y el tri&aacute;ngulo buscado sea is&oacute;sceles. </p>
+<p>&nbsp;</p>
+</BODY></HTML>

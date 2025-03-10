@@ -1,0 +1,119 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 8.54604166666667 y: -1.825625 Window size x: 33.416875 y: 21.6164583333333
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Num, 0, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Val: 314 -126 10, nA, nP, TP: 8.30791666666667, 3.33375,TS: 0.47625, -0.47625
+10
+p: 0, System, S: 0 C: 15 Fa: 0
+
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.423333333333333 -2.56645833333333
+
+5: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4, Val: 0.999622843594916 0.0274621660328274
+
+6: Transf, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 3
+
+7: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 4
+
+8: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 7
+
+9: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 8 6
+
+10: Num, 0, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Val: 476 -126 2, nA, nP, TP: 12.5941666666667, 3.33375,TS: 0.264583333333333, -0.47625
+2
+p: 0, System, S: 0 C: 15 Fa: 0
+
+11: Transf, 0, CN:2, VN:2
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 10, Val: -0.796893854133047 1.83438278045913
+
+12: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 11
+
+13: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 5
+
+14: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 9
+
+15: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 6
+
+16: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 13 12
+
+17: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 13 12
+
+18: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 17 13
+
+19: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 15
+
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 12
+
+21: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 6
+
+22: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 4
+
+23: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 22
+
+24: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 21
+
+25: Tr, 0, CN:3, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 23 19 24
+
+26: Lgth, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 25, Val: 174 68 377.953, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+27: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 25 26, Val: 174 68 2, nA, nP, TP: 4.60375, -1.79916666666667,TS: 1.74625, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+

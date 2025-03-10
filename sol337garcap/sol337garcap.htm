@@ -1,0 +1,178 @@
+<HTML>
+<HEAD>
+<TITLE>trianguloscabri337</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 5.50.4134.100" name=GENERATOR>
+</HEAD>
+<BODY bgColor=#ffffff>
+<H1>Problema 337 de <I>triánguloscabri</I> </H1>
+<table width="100%" border="0">
+  <tr> 
+    <td bgcolor="#FFFFCC" height="25"> 
+      <p class=section11 style="LINE-HEIGHT: 14.4pt">Sean </p>
+      <ul>
+        <li><i>ABC</i> un tri&aacute;ngulo obtusángulo en <i>A</i>, </li>
+        <li><i>r</i> el radio del cícrculo inscrito, </li>
+        <li><i>R</i>, radio del círculo circunscrito al triángulo,</li>
+        <li><i>a</i>, su &nbsp;lado&nbsp;mayor, y </li>
+        <li><i>p</i> el semiperimetro.</li>
+      </ul>
+      <p>Probar que: <img src="ecuacion1.gif" width="106" height="44" align="absmiddle"> 
+        ¿Cu&aacute;ndo se alcanza la igualdad?</p>
+      </td>
+  </tr>
+  <tr> 
+    <td> 
+      <div align="right"><font size="-1">Propuesto por Juan Bosco Romero M&aacute;rquez</font></div>
+    </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de <a href="http://garciacapitan.auna.com"><i>Francisco Javier 
+  Garc&iacute;a Capit&aacute;n</i></a></p>
+<p>Comenzamos un resultado elemental de C&aacute;lculo Diferencial que enunciamos 
+  en la forma simple en que lo vamos a utilizar, aunque puede generalizarse en 
+  muchas direcciones. </p>
+<table width="90%" border="0" align="center" bgcolor="#CCCC99">
+  <tr> 
+    <td valign="top" height="57"> 
+      <p><b>Lema 1</b>. Si <img src="ecuacion18.gif" width="78" height="24" align="absmiddle"> 
+        es una funci&oacute;n diferenciable y <b>T</b> es un tri&aacute;ngulo 
+        (incluido su per&iacute;metro). Si las derivadas parciales <img src="ecuacion19.gif" width="45" height="21" align="absmiddle"> 
+        y <img src="ecuacion20.gif" width="45" height="21" align="absmiddle"> 
+        no se anulan simult&aacute;neamente en el interior de <b>T</b>, los extremos 
+        absolutos (m&aacute;ximo y m&iacute;nimo absolutos) de <i>f</i> sobre 
+        <b>T</b>, que existen por ser <b>T</b> un conjunto compacto y <i>f</i> 
+        una funci&oacute;n continua) estar&aacute;n sobre la frontera de <b>T</b>.</p>
+      </td>
+  </tr>
+</table>
+<p>Ahora vemos una una desigualdad trigonom&eacute;trica muy elemental.</p>
+<table width="90%" border="0" align="center" bgcolor="#FFCCCC">
+  <tr> 
+    <td valign="top" height="146"> 
+      <p><b>Lema 2</b>. Dados 0 <font face="Symbol">&pound;</font> <i>t</i> <font face="Symbol">&pound;</font> 
+        <font face="Symbol">p</font>/2, se cumple la desigualdad <img src="ecuacion5.gif" width="114" height="22" align="absmiddle"></p>
+      <p>En efecto, como en el intervalo considerado tanto el seno como el coseno 
+        son no negativos, podemos usar la desigualdad entre las medias aritm&eacute;tica 
+        y cuadr&aacute;tica, para obtener</p>
+      <p align="center"><img src="ecuacion4.gif" width="364" height="48"></p>
+      <p align="left">La igualdad se cumple cuando el seno y coseno son iguales, 
+        es decir para <i>t</i> = <font face="Symbol">p</font>/4.</p>
+    </td>
+  </tr>
+</table>
+<p>Continuamos con otra desigualdad trigonom&eacute;trica, a la que reduciremos 
+  luego la primera desigualdad de nuestro problema. </p>
+<table width="90%" border="0" align="center" bgcolor="#FFCCCC">
+  <tr> 
+    <td valign="top" height="397"> 
+      <p><b>Lema 3</b>. Dados dos n&uacute;meros <font face="Symbol">a</font> 
+        y <font face="Symbol">b</font> tales que 0 <font face="Symbol">&pound;</font> 
+        <font face="Symbol">a</font> <font face="Symbol">&pound;</font> <font face="Symbol">b</font> 
+        <font face="Symbol">&pound;</font> <font face="Symbol">p</font>/2, se 
+        cumple la desigualdad</p>
+      <p align="center"><img src="ecuacion3.gif" width="201" height="25"></p>
+      <p align="left"><i><img src="337d.gif" width="180" height="180" align="right">Demostraci&oacute;n</i>. 
+        Consideramos la funci&oacute;n de dos variables <img src="ecuacion6.gif" width="228" height="21" align="absmiddle"> 
+        Los posibles extremos de la funci&oacute;n <i>f </i>en un abierto de <i>R</i><sup><font size="-1">2</font></sup> 
+        deben anular las derivadas parciales de <i>f </i>respecto <font face="Symbol">a</font> 
+        y <font face="Symbol">b</font>. Teniendo en cuenta que </p>
+      <blockquote> 
+        <p><img src="ecuacion7.gif" width="464" height="90"></p>
+      </blockquote>
+      <p>es evidente que <i>f</i> no tiene extremos en el conjunto abierto abierto 
+        0 &lt; <font face="Symbol">a</font> &lt; <font face="Symbol">b</font> 
+        &lt; <font face="Symbol">p</font>/2, coloreado en amarillo en la figura 
+        y correspondiente a los casos en que <i>ABC</i> es obtus&aacute;ngulo. 
+      </p>
+      <p>Entonces, los extremos de la funci&oacute;n <i>f</i> en el conjunto cerrado 
+        0 <font face="Symbol">&pound;</font> <font face="Symbol">a</font> <font face="Symbol">&pound;</font> 
+        <font face="Symbol">b</font> <font face="Symbol">&pound;</font> <font face="Symbol">p</font>/2 
+        estar&aacute;n en la frontera, y evaluando la funci&oacute;n <i>f</i> 
+        en dichos puntos obtenemos, teniendo en cuenta el <b>Lema 2</b>, </p>
+      <blockquote> 
+        <p><img src="ecuacion8.gif" width="336" height="92"></p>
+      </blockquote>
+      <p>por lo que, aplicando el <b>Lema 1</b>, queda demostrada la primera desigualdad 
+        propuesta, cumpli&eacute;ndose la igualdad para <font face="Symbol">a</font> 
+        = <font face="Symbol">p</font>/4 y <font face="Symbol">b</font> = <font face="Symbol">p</font>/2. 
+      </p>
+    </td>
+  </tr>
+</table>
+<p>Comenzamos ya a resolver el problema. </p>
+<table width="90%" border="0" align="center">
+  <tr> 
+    <td height="509" bgcolor="#99CCCC"> 
+      <p><img src="337b.gif" width="263" height="206" align="right">Si el tri&aacute;ngulo 
+        <i>ABC</i> es obtus&aacute;ngulo en <i>A</i>, supondremos, sin p&eacute;rdida 
+        de generalidad, que la circunferencia circunscrita al tri&aacute;ngulo 
+        <i>ABC </i>tiene radio unidad, y que los v&eacute;rtices est&aacute;n 
+        dispuestos como en la figura, es decir, existen n&uacute;meros reales 
+        <font face="Symbol">a</font> y <font face="Symbol">b</font> tales que 
+        0 &lt; 2<font face="Symbol">a</font> &lt; 2<font face="Symbol">b</font> 
+        &lt; <font face="Symbol">p</font> y </p>
+      <blockquote> 
+        <p><i>A</i>=(cos 2<font face="Symbol">a</font>, sen 2<font face="Symbol">a</font>), 
+          <i>B</i>=(cos 2<font face="Symbol">b</font>, sen 2<font face="Symbol">b</font>), 
+          <i>C</i> = (1, 0). </p>
+      </blockquote>
+      <p>Entonces podemos calcular</p>
+      <blockquote> 
+        <p><img src="ecuacion12.gif" width="326" height="66"></p>
+      </blockquote>
+      <p>De la misma forma podemos calcular</p>
+      <blockquote> 
+        <p><img src="ecuacion13.gif" width="192" height="21"></p>
+      </blockquote>
+      <p>Ahora, usando las f&oacute;rmulas del &aacute;rea del tri&aacute;ngulo 
+        expresamos </p>
+      <blockquote> 
+        <p><img src="ecuacion14.gif" width="377" height="44"></p>
+      </blockquote>
+      <p>Puede comprobarse, por multiplicaci&oacute;n, que esta expresi&oacute;n 
+        de <i>r</i> es equivalente a</p>
+      <blockquote>
+        <p><img src="ecuacion10.gif" width="208" height="21"></p>
+      </blockquote>
+      <p>y, usando el <b>Lema 3</b>, obtenemos que <img src="ecuacion11.gif" width="161" height="41" align="absmiddle"> 
+        Seg&uacute;n lo visto, la igualdad se cumplir&aacute; cuando <font face="Symbol">a</font> 
+        = <font face="Symbol">p</font>/4 y <font face="Symbol">b</font> = <font face="Symbol">p</font>/2, 
+        que corresponde al caso l&iacute;mite en el que el tri&aacute;ngulo <i>ABC</i> 
+        es rect&aacute;ngulo en <i>A</i> e is&oacute;sceles.</p>
+    </td>
+  </tr>
+</table>
+<p>Ahora la segunda desigualdad. </p>
+<table width="90%" border="0" align="center">
+  <tr> 
+    <td height="43" bgcolor="#99CCCC"> 
+      <p>En primer lugar observamos que </p>
+      <blockquote> 
+        <p><img src="ecuacion15.gif" width="370" height="100"></p>
+      </blockquote>
+      <p>Consideramos la funci&oacute;n <img src="ecuacion16.gif" width="249" height="25" align="absmiddle">Como 
+        antes, es f&aacute;cil comprobar que las derivadas parciales de esta funci&oacute;n 
+        no se anulan simultan&eacute;amente en el conjunto abierto 0 &lt; <font face="Symbol">a</font> 
+        &lt; <font face="Symbol">b</font> &lt; <font face="Symbol">p</font>/2. 
+        Entonces los extremos de <i>g</i> sobre el conjunto cerrado 0 <font face="Symbol">&pound;</font> 
+        <font face="Symbol">a</font> <font face="Symbol">&pound;</font> <font face="Symbol">b</font> 
+        <font face="Symbol">&pound;</font> <font face="Symbol">p</font>/2 estar&aacute;n 
+        en la frontera. Evaluando la funci&oacute;n <i>g </i>en estos puntos obtenemos 
+      </p>
+      <blockquote> 
+        <p><img src="ecuacion17.gif" width="428" height="101"> </p>
+      </blockquote>
+      <p>cumpli&eacute;ndose, seg&uacute;n el <b>Lema 1</b>, por tanto que la 
+        segunda desigualdad del enunciado siempre es cierta cuando el tri&aacute;ngulo 
+        es obtus&aacute;ngulo, y que la igualdad se da, como antes, en el caso 
+        l&iacute;mite en el que el tri&aacute;ngulo <i>ABC</i> es rect&aacute;ngulo 
+        en <i>A</i>, descartando el caso trivial <font face="Symbol">a</font> 
+        =<font face="Symbol"> b </font>=<font face="Symbol"> </font>0 en el que 
+        no hay tri&aacute;ngulo. </p>
+      </td>
+  </tr>
+</table>
+</BODY>
+</HTML>
+

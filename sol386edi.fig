@@ -1,0 +1,104 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 4.92125 y: -0.714375 Window size x: 33.416875 y: 21.6164583333333
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"D", NP: 151, 47, NS: 12, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 4.02166666666667 -1.24354166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 54, 158, NS: 12, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.48166666666667 -4.206875
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"A", NP: 101, -95, NS: 10, 18
+5: PReg, 196609, CN:2, VN:5
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 3 4
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 297, 75, NS: 11, 18
+6: PReg, 1, CN:1, VN:0
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5
+p: 0, System, S: 0 C: 3 Fa: 0
+
+7: PolReg, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 5 6
+
+8: Par, 256, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7
+
+9: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7
+
+10: Par, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7
+
+11: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 10
+
+12: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 11 7
+
+13: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 8
+
+14: Par, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 7
+
+15: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 10
+
+16: Par, 256, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 7
+
+17: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 9
+
+18: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 9
+
+"P", NP: 136, 134, NS: 11, 18
+19: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 9
+p: 0, System, S: 0 C: 3 Fa: 0
+
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 12
+
+21: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 12
+
+"R", NP: 216, 106, NS: 12, 18
+22: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 12
+p: 0, System, S: 0 C: 3 Fa: 0
+
